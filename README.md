@@ -6,8 +6,13 @@
 ## Introduction
 This repository contains supplemental code and image analysis pipelines for the quantification of muscle fiber pathology in SLC6A8 knockout mice.
 
+## Histopathology
+Reproduced from the Figure 1 legend of Wawro et al. 2021:<br>
+"Formalin-fixed paraffin-embedded hematoxylin and eosin (H&E) stained sections of skeletal muscle (gastrocnemius) from WT and Slc6a8 -/y mice showed atrophic muscle fibers with increased fiber size variation at 3 months that at 6 months had progressed to a distinct vacuolar myopathy (magnification main 200x, inset 400x. Scale bar 50 μm at 200x)"
+![figure1-histo](./img/figure_1_slcga8_muscle_histology.jpg)
+
 ## Microscopy and Computational Image Analysis
-Reproduced from the methods section of Wawro et al. 2021
+Reproduced from the methods section of Wawro et al. 2021:<br>
 "Brightfield imaging was performed on a Nikon Eclipse Ni-E motorized upright microscope equipped with 20×/0.75 NA and 40×/0.95 NA air objectives. Digital images were acquired with a SPOT Insight 12 MP CMOS Camera with white balance and flatfield correction. Muscle fibers were segmented in ilastik version 1.3.3 using manual labeling of a subset of wild-type and knockout histopathology images to train a pixel-level classifier using the autocontext 2-stage pipeline. A custom image analysis pipeline to quantify muscle histomorphometry was developed in Cell Profiler version 4.0.2  using the images segmented in ilastik followed by additional image processing including marker-controlled watershed to separate adjacent myofibers (source code and pipeline at https://github.com/jnirschl/slc6a8_ko). Segmented objects were  filtered by shape factors including circularity ![circeqn](./img/circ_eqn-latex.svg) to obtain myofibers in cross-section and exclude tangential or longitudinal fibers, which was confirmed by manual review. At least 100 myofibers were used to compute the maximum Feret diameter and cross-sectional area for each mouse. An unequal variances t-test was used to compare each WT–KO pair at 3 and 6 months (n=5 per genotype, per time point)."
 
 
