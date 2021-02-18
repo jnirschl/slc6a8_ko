@@ -1,6 +1,6 @@
 # Supplemental code for "Creatine transport and pathological changes in creatine transporter deficient mice"
 
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](./LICENSE)
+[![license](https://img.shields.io/github/license/jnirschl/slc6a8_ko)](./LICENSE)
 ==============================
 
 ## Introduction

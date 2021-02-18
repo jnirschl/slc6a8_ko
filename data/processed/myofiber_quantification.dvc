@@ -1,0 +1,5 @@
+outs:
+- md5: 69fa106c8557cfe72775dcb6f5e642e3.dir
+  size: 534784
+  nfiles: 4
+  path: myofiber_quantification
