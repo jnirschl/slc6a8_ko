@@ -4,7 +4,7 @@
 ==============================
 
 ## Introduction
-This repository contains supplemental code and image analysis pipelines for the quantification of muscle fiber pathology in SLC6A8 knockout mice.
+This repository contains the supplemental code and image analysis pipelines for the quantification of muscle fiber pathology in SLC6A8 knockout mice.
 
 ## Histopathology
 Reproduced from the Figure 1 legend of Wawro et al. 2021:<br>
